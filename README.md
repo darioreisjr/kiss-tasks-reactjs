@@ -1,65 +1,53 @@
-##  📝 Gerenciador de Tarefas Moderno (Sugestão) 
- 
-Este projeto parece ser um aplicativo web responsivo de gerenciamento de tarefas, construído com React, utilizando Vite como ferramenta de build e provavelmente estilizado com JavaScript puro. 
+##  📝 Gerenciador de Tarefas Produtivo (Sugestão) 📝
 
-##  💻 Tecnologias Utilizadas: 
+Este projeto parece ser um aplicativo web responsivo de gerenciamento de tarefas, construído com React, provavelmente utilizando Vite como ferramenta de construção. O foco em componentes reutilizáveis sugere uma interface organizada e modular.
+
+## 💻 Tecnologias Utilizadas:
 
 - React
 - JavaScript
-- Vite 
+- Vite (provável)
 
-##  📂 Arquitetura do Projeto 
+## 📂 Arquitetura do Projeto
 
 ### 📁 public/
 
-Recursos estáticos que são copiados diretamente para a pasta de build.
+Recursos estáticos, como:
 
-- `favicon.svg` 🖼️: Ícone do site.
+- `favicon.svg`: Ícone do site.
 
 ### 📁 src/
 
-Contém o código-fonte principal da aplicação.
+Código-fonte principal da aplicação.
 
-- `App.jsx` 🚀: Componente raiz da aplicação. 
-- `main.jsx` 🖥️: Ponto de entrada principal que renderiza o app no DOM.
-- `components/` 🧱: Componentes reutilizáveis da interface.
-    - `Button/`: Componente de botão.
-        - `index.jsx`: Lógica do componente.
-        - `styles.js`: Estilos do componente.
-    - `Filter/`: Componente de filtro. 
-    - `Header/`: Componente de cabeçalho. 
-    - `Input/`: Componente de input.
-    - `Priorities/`: Componente para gerenciar prioridades.
-    - `Search/`: Componente de busca.
-    - `ShortTask/`: Componente para exibir uma tarefa resumida.
-    - `SideMenu/`: Componente de menu lateral. 
-    - `Task/`: Componente para exibir uma tarefa completa.
-    - `Tasks/`: Componente para exibir uma lista de tarefas.
-- `pages/` 📄: Componentes que representam páginas ou rotas.
-    - `Home/`: Página inicial.
-- `styles/` 🎨: Estilos globais e configuração do tema.
-    - `deviceBreakpoints.js`: Define breakpoints para responsividade.
-    - `global.js`: Estilos globais. 
-    - `theme.js`: Define o tema da aplicação.
-- `utils/` 🧰:  Utilitários auxiliares.
-    - `tasks.js`: Funções para gerenciar tarefas (ex: adicionar, remover, etc.).
+- `App.jsx`: Componente raiz da aplicação.
+- `main.jsx`: Ponto de entrada da aplicação.
+- `components/`: Pasta dedicada aos componentes React reutilizáveis.
+    - `Button/`, `Filter/`, `Header/`, `Input/`, `Priorities/`, `Search/`, `ShortTask/`, `SideMenu/`, `Task/`, `Tasks/`: Cada pasta parece conter um componente específico com seu próprio arquivo de estilo (`styles.js`). 
+- `pages/`: Define as diferentes páginas da aplicação.
+    - `Home/`: Página inicial, provavelmente com a visão geral das tarefas.
+- `styles/`: Estilos globais e configuração de temas.
+    - `deviceBreakpoints.js`: Define os breakpoints para responsividade.
+    - `global.js`: Estilos globais da aplicação.
+    - `theme.js`: Define o tema visual da aplicação.
+- `utils/`:  Funções utilitárias.
+    - `tasks.js`:  Utilitários para manipulação de tarefas.
 
 ### 📄 Arquivos da raiz
 
-- `.git/`: Pasta do sistema de controle de versão Git.
-- `.gitignore`: Define arquivos e pastas ignorados pelo Git. 
-- `.vscodeignore`: Define arquivos e pastas ignorados pelo VS Code.
-- `CHANGELOG.md` 📑: Histórico de mudanças do projeto. 
-- `index.html`: Arquivo HTML principal (provavelmente serve como ponto de entrada).
-- `package-lock.json`, `package.json` 📦: Gerenciamento de dependências (npm).
-- `pnpm-lock.yaml`: Arquivo de lock do gerenciador de pacotes pnpm.
-- `Readme.md` 📄: Este arquivo! 😊
+- `.git/`: Pasta do repositório Git.
+- `.gitignore`: Define arquivos e pastas ignorados pelo Git.
+- `index.html`: Arquivo HTML principal da aplicação.
+- `package-lock.json`, `package.json` 📦: Gerenciamento de dependências.
+- `pnpm-lock.yaml`: Indica que o gerenciador de pacotes pnpm também é utilizado.
 - `vite.config.js`: Arquivo de configuração do Vite.
 
-##  Observações Adicionais 
 
-- A estrutura organizada em componentes e a clara separação de responsabilidades (componentes, páginas, estilos, utils) sugerem um código limpo e fácil de manter. 
-- O uso de um sistema de build como o Vite geralmente significa um processo de desenvolvimento mais rápido e eficiente. 
+## Próximos Passos
 
-Espero que este README seja útil para entender a estrutura do projeto! 😄
+- Adicionar instruções de instalação e execução do projeto.
+- Detalhar o propósito e a funcionalidade de cada componente na pasta `components/`.
+- Descrever as responsabilidades dos arquivos dentro de `styles/` e `utils/`.
+- Considerar adicionar um screenshot da interface para o README. 
+
 
