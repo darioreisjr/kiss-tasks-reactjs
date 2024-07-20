@@ -1,4 +1,4 @@
-##  📝 Gerenciador de Tarefas Produtivo (Sugestão) 📝
+##  📝 Gerenciador de Tarefas Produtivo📝
 
 Este projeto parece ser um aplicativo web responsivo de gerenciamento de tarefas, construído com React, provavelmente utilizando Vite como ferramenta de construção. O foco em componentes reutilizáveis sugere uma interface organizada e modular.
 
@@ -6,7 +6,7 @@ Este projeto parece ser um aplicativo web responsivo de gerenciamento de tarefas
 
 - React
 - JavaScript
-- Vite (provável)
+- Vite
 
 ## 📂 Arquitetura do Projeto
 
